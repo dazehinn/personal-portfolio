@@ -7,8 +7,9 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 6px 24px;
 }
 
 .hamburger {
@@ -27,13 +28,25 @@ nav {
 
 .main {
   background-image: url("./img/header-shapes\ mobile.png");
-  background-size: 100% 80vh;
   background-repeat: no-repeat;
   background-color: #fff;
   margin-bottom: 20px;
   border-radius: 0 0 0 100px;
-  min-height: 100vh;
   box-sizing: border-box;
+  height: calc(100vh - 55px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.primary-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 50px 24px 0 24px;
 }
 
 .primary-text {
