@@ -1,0 +1,78 @@
+body {
+  background-color: #fff;
+}
+
+.header {
+  position: absolute;
+  width: 375px;
+  left: calc(50% - 375px / 2);
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  background-color: azure;
+}
+
+.logo,
+.hamburger {
+  padding: 10px 12px;
+}
+
+.hamburger img{
+  width: 30px;
+}
+
+.main {
+  background-image: url("./img/header-shapes\ mobile.png");
+  background-size: contain;
+  background-color: azure;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 0;
+  position: absolute;
+  width: 375px;
+  height: 300px;
+  left: calc(50% - 375px / 2);
+  top: 46px;
+}
+
+.primary-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 0 24px;
+  margin: 0;
+}
+
+.content {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 24px;
+  color: #344563;
+}
+
+.social {
+  padding: 0 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  padding: 0 24px;
+}
+
+.social-media-icons img {
+  margin-right: 15px;
+}
