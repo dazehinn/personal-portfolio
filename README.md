@@ -9,7 +9,7 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
 
 # 📗 Table of Contents
 
@@ -17,23 +17,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
 
 # 📖 Personal Portfolio <a name="about-project"></a>
 
@@ -51,7 +41,7 @@
   </ul>
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -61,7 +51,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- AUTHORS -->
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -75,7 +65,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -85,7 +75,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -93,7 +82,7 @@ If you like this project follow me on GitHub, twitter and LinkedIn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -101,7 +90,7 @@ I would like to thank my coding partners and standup team for their encouragemen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 
