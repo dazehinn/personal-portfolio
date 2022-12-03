@@ -88,7 +88,6 @@ li {
   display: inline;
 }
 
-
 .works {
   padding: 114px 24px;
   width: 375px;
@@ -110,6 +109,7 @@ li {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   gap: 16px;
+  align-items: flex-start;
 }
 
 .snapshot {
@@ -206,17 +206,14 @@ li {
 
 .action-button {
   padding: 12px;
-  width: 124px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  letter-spacing: 0.03em;
   color: #396df2;
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: #fff;
 }
 
@@ -224,7 +221,6 @@ li {
   color: #fff;
   background-color: #396df2;
 }
-
 
 .about {
   display: flex;
@@ -240,7 +236,6 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0;
   gap: 12px;
   width: 327px;
   height: 409px;
@@ -286,32 +281,9 @@ li {
   color: #7f8cff;
 }
 
-.social-media-icons {
-  padding: 0 24px;
-  margin-top: 15px;
-}
-
-.social-media-icons img {
-  margin-right: 15px;
-}
-
 .social-media-icons li {
   list-style-type: none;
   display: inline;
-}
-
-.action-button {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: #fff;
 }
 
 .skillset {
@@ -404,9 +376,4 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-}
-
-.action-button:hover {
-  color: #fff;
-  background-color: #396df2;
 }
