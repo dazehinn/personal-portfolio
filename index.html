@@ -204,18 +204,19 @@
             </ul>
             </div>
         </section>
-        <section class="contact">
-         <header>
-           <h1> Contact me </h1>
-           <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
-         </header>
 
-         <form class="contact-form">
-            <input type="text" placeholder="Enter Full Name" id="user-name">
-            <input type="email" name="" placeholder="Enter e-mail" id="user-e-mail">
-            <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
-            <button>Get in Touch</button>
-         </form>
-        </section>
+        <section class="contact">
+          <header>
+            <h2> Contact me </h2>
+            <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
+          </header>
+      
+          <form action="https://formspree.io/f/mbjbnyye" method="post" class="contact-form">
+             <input type="text" name="username" placeholder="Enter Full Name" id="username" required>
+             <input type="email" name="user-email" placeholder="Enter e-mail" id="user-email" required>
+             <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Write your message here" required></textarea>
+             <button type="submit" class="form-btn">Get in Touch</button>
+           </form>
+         </section>
 </body>
 </html>
