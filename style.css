@@ -398,14 +398,17 @@ li {
   padding: 0 24px 30px 24px;
 }
 
+.contact-form {
+  padding-left: 12px;
+}
+
 #username,
 #user-email,
 #text-area {
-  width: 90%;
-  margin: 20px 24px;
-  height: 2rem;
-  border-radius: 8px;
+  width: 85%;
+  margin: 12px 24px;
   border: 1px solid #cfd8dc;
+  padding: 1rem 12px;
 }
 
 #text-area {
@@ -435,6 +438,10 @@ li {
 
 .form-btn:hover {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #396df2;
   cursor: pointer;
+}
+
+.form-btn:active {
+  background-color: #172b4d;
 }
