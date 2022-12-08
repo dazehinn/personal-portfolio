@@ -90,7 +90,6 @@ li {
 
 .works {
   padding: 114px 24px;
-  width: 375px;
 }
 
 .container {
@@ -114,6 +113,16 @@ li {
 
 .snapshot {
   border-radius: 8px;
+}
+
+.snapshot-details {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 327px;
+  height: 552px;
+  gap: 16px;
+  align-items: flex-start;
 }
 
 .works-description {
