@@ -27,7 +27,7 @@ nav {
   color: #6070ff;
 }
 
-.main {
+#headline {
   background-image: url("./img/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-color: #fff;
@@ -88,7 +88,7 @@ li {
   display: inline;
 }
 
-.works {
+#works {
   padding: 114px 24px;
 }
 
@@ -226,7 +226,7 @@ li {
   background-color: #396df2;
 }
 
-.about {
+#about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,7 +374,7 @@ li {
   font-size: 20px;
 }
 
-.contact {
+#contact {
   background-color: #6070ff;
   background-image: url(./img/contact\ form\ shapes-mobile.png);
   background-position: right;
@@ -385,7 +385,7 @@ li {
   border-top-left-radius: 100px;
 }
 
-.contact h2 {
+#contact h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -396,7 +396,7 @@ li {
   padding-bottom: 12px;
 }
 
-.contact p {
+#contact p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
