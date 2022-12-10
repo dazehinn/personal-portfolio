@@ -226,6 +226,14 @@
   .form-btn:active {
     background-color: #172b4d;
   }
+
+  .card img {
+    transition: transform 2s;
+  }
+
+  .card img:hover {
+    transform: scale(108%);
+  }
 }
 
 @media screen and (max-width: 768px) {
