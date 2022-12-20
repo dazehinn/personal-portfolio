@@ -237,7 +237,37 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav-items {
-    display: none;
+  nav {
+    width: 100vw;
+    height: initial; /*here*/
+    opacity: .9;
+    position: fixed;
+    z-index: 99;
+    background-color: transparent;/*here*/
+    background-blend-mode: multiply;
+    align-items: initial;
+    padding-top: 42px;
+  }
+
+  .logo {
+    position: fixed;
+    top:15px;
+  }
+   .nav-items a {
+    display: none; /*here*/
+    padding: 16px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .hamburger-img {
+    width: 36px;
+    position: fixed;
+    top: 0;
+    right: 12px;
   }
 }
