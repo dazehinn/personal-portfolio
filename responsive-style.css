@@ -239,11 +239,11 @@
 @media screen and (max-width: 768px) {
   nav {
     width: 100vw;
-    height: initial; /*here*/
-    opacity: .9;
+    height: initial;
+    opacity: 0.9;
     position: fixed;
     z-index: 99;
-    background-color: transparent;/*here*/
+    background-color: transparent;
     background-blend-mode: multiply;
     align-items: initial;
     padding-top: 42px;
@@ -251,14 +251,15 @@
 
   .logo {
     position: fixed;
-    top:15px;
+    top: 15px;
   }
-   .nav-items a {
-    display: none; /*here*/
+
+  .nav-items a {
+    display: none;
     padding: 16px 12px;
     color: #fff;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
