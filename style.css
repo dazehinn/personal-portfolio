@@ -13,6 +13,9 @@ nav {
   padding: 6px 24px;
 }
 
+.logo {
+  text-decoration: none;
+}
 .nav-items a:hover {
   background-color: #396df2;
   color: #fff;
