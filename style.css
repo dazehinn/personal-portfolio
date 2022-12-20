@@ -15,7 +15,14 @@ nav {
 
 .logo {
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
+
 .nav-items a:hover {
   background-color: #396df2;
   color: #fff;
@@ -24,15 +31,6 @@ nav {
 .hamburger {
   background-color: #b400;
   border: none;
-}
-
-.logo {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
 }
 
 #headline {
