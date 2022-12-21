@@ -31,6 +31,9 @@ nav {
 .hamburger {
   background-color: #b400;
   border: none;
+  position: fixed;
+  right: 15px;
+  top: 1px;
 }
 
 #headline {
