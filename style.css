@@ -487,3 +487,11 @@ li {
 .card img:hover {
   transform: scale(108%);
 }
+
+.openPopup {
+  display: block;
+}
+
+.closePopup {
+  display: none;
+}
