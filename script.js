@@ -3,10 +3,10 @@ const navLinks = document.querySelectorAll('.nav-items a');
 const hamburgerBtn = document.querySelector('.hamburger');
 
 const closeBtn = document.createElement('img');
-closeBtn.src = 'img/toolbar.png';
+closeBtn.src = 'img/Toolbar.png';
 closeBtn.style.position = 'fixed';
-closeBtn.style.top = '25px';
-closeBtn.style.right = '10px';
+closeBtn.style.top = '3px';
+closeBtn.style.right = '15px';
 closeBtn.style.pointer = 'cursor';
 
 function openMenu() {
