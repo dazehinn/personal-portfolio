@@ -164,7 +164,7 @@
     width: 447px;
   }
 
-  #contact p {
+  .cta {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -237,7 +237,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav-items {
+  .logo {
+    position: fixed;
+    top: 15px;
+  }
+
+  .nav-items a {
     display: none;
+    padding: 16px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
   }
 }

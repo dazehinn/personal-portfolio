@@ -7,18 +7,22 @@
     <title>Nshanji Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive-style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="popupPty.css">
+    <script src="script.js" defer></script>
+    <script src="popups.js" defer></script>
 </head>
 <body>
 
   <header class="header">
     <nav>
-      <a class="logo">My Logo</a> 
+      <a class="logo" href="#"> My Logo</a> 
       <ul class="nav-items">
         <li><a href="#works">Portfolio</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button class="hamburger"><img src="./img/Enabled.png" alt=""></button>
+      <button class="hamburger"><img class="hamburger-img" src="./img/Enabled.png" alt=""></button>
     </nav>
   </header>
 
@@ -67,9 +71,9 @@
                    <li>css</li>
                    <li>javaScript</li>
                </ul>
-               <button class="action-button">See Project</button>
+               <button class="action-button see-project">See Project</button>
              </div>
-           </div>
+            </div>
 
          <div class="card">
              <img src="./img/Snapshoot Portfolio (1).png" alt="snapshot poortfolio" class="snapshot">
@@ -96,7 +100,7 @@
                    <li>css</li>
                    <li>javaScript</li>
                  </ul>
-                 <button class="action-button">See Project</button>
+                 <button class="action-button see-project">See Project</button>
            </div>
          </div>
 
@@ -124,7 +128,7 @@
                      <li>css</li>
                      <li>javaScript</li>
                  </ul>
-                 <button class="action-button">See Project</button>
+                 <button class="action-button see-project">See Project</button>
              </div>
          </div>
 
@@ -153,11 +157,20 @@
                    <li>css</li>
                    <li>javaScript</li>
                </ul>
-               <button class="action-button">See Project</button>
+               <button class="action-button see-project">See Project</button>
            </div>
          </div>
        </div>
      </section>
+
+
+
+
+
+
+
+
+
 
      <section id="about">
       <div class="intro">
@@ -222,10 +235,11 @@
 
         <section id="contact">
           <h2> Contact me </h2>
-          <p> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
+          <p class="cta"> If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it  </p>
       
           <form action="https://formspree.io/f/mbjbnyye" method="post" class="contact-form">
              <input type="text" name="username" placeholder="Enter Full Name" id="username" maxlength=30 required>
+             <p class="error-message">Please use only lower case letters for your email.</p>
              <input type="email" name="user-email" placeholder="Enter e-mail" id="user-email" required>
              <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Write your message here" maxlength=500 required></textarea>
              <button type="submit" class="form-btn">Get in Touch</button>

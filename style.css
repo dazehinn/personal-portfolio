@@ -13,6 +13,16 @@ nav {
   padding: 6px 24px;
 }
 
+.logo {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
 .nav-items a:hover {
   background-color: #396df2;
   color: #fff;
@@ -21,15 +31,9 @@ nav {
 .hamburger {
   background-color: #b400;
   border: none;
-}
-
-.logo {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
+  position: fixed;
+  right: 15px;
+  top: 1px;
 }
 
 #headline {
@@ -240,6 +244,11 @@ li {
 .action-button:hover {
   color: #fff;
   background-color: #396df2;
+  cursor: pointer;
+}
+
+.action-button:active {
+  background-color: #344563;
 }
 
 #about {
@@ -412,7 +421,7 @@ li {
   padding-bottom: 12px;
 }
 
-#contact p {
+.cta {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -477,4 +486,19 @@ li {
 
 .card img:hover {
   transform: scale(108%);
+}
+
+.openPopup {
+  display: block;
+}
+
+.closePopup {
+  display: none;
+}
+
+.error-message {
+  color: #f00;
+  font-size: 0.9rem;
+  padding-left: 24px;
+  visibility: hidden;
 }
