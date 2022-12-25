@@ -421,7 +421,7 @@ li {
   padding-bottom: 12px;
 }
 
-#contact p {
+.cta {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -494,4 +494,11 @@ li {
 
 .closePopup {
   display: none;
+}
+
+.error-message {
+  color: #f00;
+  font-size: 0.9rem;
+  padding-left: 24px;
+  visibility: hidden;
 }
